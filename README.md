@@ -1,21 +1,23 @@
-# PLATEAU VIEW AR
+# PLATEAU WebAR (Proto)
+![image](https://github.com/Project-PLATEAU/PLATEAU-VIEW-AR/assets/79615787/8aa3a8ab-3db8-447d-ae4a-af6693f2f611)
 
 ## 1. 概要
-本リポジトリでは、2023年度のProject PLATEAUで開発した「PLATEAU VIEW AR」のソースコードを公開しています。  
-本プロジェクトは、スマートフォンのWebブラウザ上でロケーションベースARを活用し、現実世界に3D都市モデルが重なるように表示されるアプリケーションを開発し、その性能を測る実験的な取り組みです。
+本リポジトリでは、2023年度のProject PLATEAUで開発した「PLATEAU WebAR（プロトタイプ版）」のソースコードを公開しています。  
+「PLATEAU WebAR（プロトタイプ版）」は、スマートフォンを用いたWebブラウザ上で動作するロケーションベースARアプリケーションです。現実世界に3D都市モデルを重ねるように表示します。  
+「PLATEAU WebAR（プロトタイプ版）」はウェブ上で動作するARアプリケーションの技術検証や性能測定を行うために開発されたプロトタイプ版です。
 
+## 2.「PLATEAU VIEW AR」（プロトタイプ版）について
 
-## 2.「PLATEAU VIEW AR」について
+「PLATEAU VIEW AR」（プロトタイプ版）は、ストリーミングに最適化された3D都市モデルのレンダリングフォーマットである3DTilesを用いた（CesiumJSエンジンを用いた）WebARアプリを開発することで、ウェブベースでのAR体験の価値検証や、位置精度向上の方策の検討、PLATEAU VIEWと連携したWebGISとWebARの統合を実現するための技術的ナレッジの獲得等を目的として開発されました。  
 
-「PLATEAU VIEW AR」は、スマートフォンのWebブラウザ上でロケーションベースARを活用し、現実世界に3D都市モデルが重なるように表示されるアプリケーションです。  
-これにより、誰でも簡単にアプリのダウンロード等を必要とせずどこでも自分の目線でPLATEAUのデータを現実世界に重ねて閲覧することができます。
+PLATEAUが提供する3D都市モデルの表示やこれをベースにしたコンテンツの重畳等が可能なWebARアプリケーションの開発ナレッジを蓄積することで、 WebGISとWebARを組み合わせた新たなユーザー体験の提供を目指しています。
 
 本システムの詳細については[PLATEAU VIEW構築マニュアル](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_doc_0009_ver04.pdf)を参照してください。
 
 
 
 ## 3. 利用手順
-本システムの構築手順及び利用手順については[利用チュートリアル](https://www.mlit.go.jp/plateau/learning/tpc02-2/)を参照してください。
+本システムの構築手順及び利用手順については[利用チュートリアル](XXXX)を参照してください。
 
 ## 4. システム概要
 
@@ -75,4 +77,3 @@
 
 ## 10. 参考資料
 - PLATEAU VIEW構築マニュアル: https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_doc_0009_ver04.pdf
-- PLATEAU WebサイトのUse caseページ「市民協働による樹木管理DX」: https://www.mlit.go.jp/plateau/use-case/uc23-14/
